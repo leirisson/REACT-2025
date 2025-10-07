@@ -1,0 +1,13 @@
+
+
+
+.btn{
+    padding: 1rem;
+    background-color: red;
+    color: aliceblue;
+    font-weight: 700;
+    outline-color: blue;
+    border: 4px  solid;
+    transform: 1s;
+}
+
