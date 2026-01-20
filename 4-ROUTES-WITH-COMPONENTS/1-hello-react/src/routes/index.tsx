@@ -1,0 +1,16 @@
+import { Route, Routes } from "react-router-dom";
+import { HelloPage } from "../pages/Hello";
+import { Profile } from "../pages/Profile";
+
+
+
+export function AppRoutes(){
+    return(
+        <>
+        <Routes>
+            <Route path="/" element={<HelloPage />} />
+            <Route path="/profile" element={<Profile />} />
+        </Routes>
+        </>
+    )
+}
